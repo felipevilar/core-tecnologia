@@ -128,15 +128,6 @@ const isMenuOpen = ref(false);
   color: #333; /* Or strictly black as per image? keeping it subtle */
 }
 
-@media (min-width: 768px) {
-  .desktop-nav {
-    display: block;
-  }
-  .mobile-menu-btn {
-    display: none;
-  }
-}
-
 /* Mobile Nav */
 .mobile-menu-btn {
   background: none;
@@ -209,5 +200,14 @@ const isMenuOpen = ref(false);
   font-size: 1.25rem;
   font-weight: 600;
   display: block;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: block;
+  }
+  .mobile-menu-btn {
+    display: none;
+  }
 }
 </style>
